@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        .box {
+            border: 2px solid black;
+            /* width: 200px; */
+            width: 100vw;
+            margin: 20px;
+            background-color: lightskyblue;
+        }
+
+        .container {
+            border: 2px solid black;
+            font-size: 2em;
+            background-color: lightcoral;
+            margin: 80px auto;
+        }
+
+        .container p {
+            font-size: 0.5em;
+            border: 2px solid rgb(255, 0, 136);
+            width: 50%;
+        }
+
+        .container> div div {
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont {
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin: 10px auto;
+            background-color: lightgreen;
+            color: rgb(123, 77, 6);
+            font-size: 22px;
+            width: 100vmin;
+            min-height: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        this is a box.
+    </div>
+    <div class="container">
+        <div>
+        
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ducimus placeat iusto blanditiis quasi
+            aspernatur! Ut temporibus fuga nulla explicabo, earum qui odit.
+        </div>
+        this is a container .
+    </div>
+    <div class="mycont">
+        i am another container.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit adipisci odit qui dignissimos? Voluptas
+        accusantium maiores vitae, corrupti ipsum dolor laboriosam quidem odio voluptates saepe ducimus, delectus
+        commodi minima illum facilis. Eum, provident veniam velit similique amet libero blanditiis ea vero, aut iste,
+        iusto accusamus?
+    </div>
+</body>
+
+</html>
