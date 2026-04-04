@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css float and clear</title>
+    <style>
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        img {
+            float: right;
+        }
+
+        .card {
+            border: 2px solid red;
+
+        }
+
+        .card:nth-child(3) {
+            background-color: greenyellow;
+            clear: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+
+        <img src="https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80"
+            alt="" width="230">
+
+        <div class="card">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsa illo, minima magnam error est
+                ratione neque, facere vero culpa consectetur voluptas. Dolore.</p>
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed provident magni minus laudantium nihil quia
+            dicta iusto quibusdam facilis fugit, assumenda atque, error commodi dolores rerum nostrum odit totam
+            accusantium veniam cumque placeat consequatur voluptas ullam. Quam nemo deleniti ratione cupiditate
+            molestias ex tempora possimus debitis blanditiis corporis facilis iusto consequatur architecto ducimus quasi
+            repudiandae et minus, veritatis ullam commodi modi ea? Id alias nemo tempora sed quo labore voluptate vel,
+            quam pariatur, cumque cupiditate illo quia quasi possimus veniam assumenda nam sapiente similique! Sit id
+            distinctio natus reiciendis perspiciatis, quo beatae necessitatibus laudantium ut repellat quidem dolorem
+            ipsum provident. Quam numquam nulla similique sint atque eaque sapiente nobis. Temporibus magnam repudiandae
+            doloremque nostrum recusandae, laudantium adipisci minima accusantium. Esse laudantium eos maxime.
+        </div>
+        <div class="card"> card 3</div>
+    </div>
+</body>
+
+</html>
