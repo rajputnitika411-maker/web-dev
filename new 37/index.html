@@ -1,117 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>making website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>css transition</title>
+    <style>
+        .container{
+            background-color:antiquewhite;
+            width:50vw;
+            height:40vh;
+        }
+        .box{
+            background-color: aquamarine;
+             width:5vw;
+            height:4vh;
+            transition-property:background-color,transform ;
+            transition-duration: 3s;
+            transition-timing-function:ease-in-out;
+            transition-delay: 1s;
+        }
+        .translate{
+            transform: translateX(10vw) translateY(10vh) scale(2);
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQofflH4I6hAuXBDmCGShKFjrFh3cCFAmgFNw&s
-                    alt="">
-            </div>
-
-            <div class="right">
-                <ul>
-                    <li><span>products</span><svg <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14"
-                            height="14" color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
-                        </svg></li>
-                    <li><span>pricing</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14"
-                            height="14" color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
-                        </svg></li>
-                    <li><span>resources</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14"
-                            height="14" color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
-                        </svg></li>
-                    <li><span>about us</span><svg <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14"
-                            height="14" color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 9.00005C18 9-.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
-                        </svg></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="first">
-            <span>
-                Download the<b> ultraedit</b> for windows .
-            </span>
-            <p>Download and try ultraedit before you
-                buy it!this download includes the full windows version of the text editor .</div>
-            </p>
-            <button class="btn">
-
-                DOWNLOAD MAC OR LINUX VERSION
-            </button>
-            </div>
-
-        </section>
-        <section class="second">
-            <div class="download">
-                <span>download ultraedit</span>
-
-                <span class="small">v2023.1(released 04/26/2026)|Hotfix</span>
-            </div>
-            <div class="grid">
-                <div class="item">
-                    <div class="item-lang">English</div>
-                    <button class="btn blue"> <a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">detuch</div>
-                    <button class="btn blue"> <a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">chinese</div>
-                    <button class="btn blue"> <a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">japanese</div>
-                    <button class="btn blue"> <a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">roman</div>
-                    <button class="btn blue"><a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">american</div>
-                    <button class="btn blue"><a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">british</div>
-                    <button class="btn blue"> <a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">french</div>
-                    <button class="btn blue"> <a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-                <div class="item">
-                    <div class="item-lang">portugese</div>
-                    <button class="btn blue"> <a href="/file.exe">download 32-bit</a></button>
-                    <button class="btn green"><a href="/file.exe">download 64-bit</a></button>
-                </div>
-            </div>
-        </section>
-    </main>
+    <div class="container">
+    <div class="box translate"></div>
+    </div>
 </body>
-
 </html>
